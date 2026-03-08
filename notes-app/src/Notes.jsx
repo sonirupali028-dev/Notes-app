@@ -20,8 +20,8 @@ function App() {
     if(text.trim() === "") return;
 
     const newNote = {
-      id: Date.now(),
-      content: text
+    //   id: Date.now(),
+    //   content: text
     };
 
     setNotes([...notes, newNote]);
